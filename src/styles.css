@@ -1,0 +1,104 @@
+* {
+    color: #f7fafb;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+.overflow-scroll::-webkit-scrollbar{
+    display: none;
+}
+
+.overflow-scroll {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+#start{
+    max-width: 100%;
+    max-height: 100%;
+    width: 100vw;
+    height: 100vh;
+    background-color: #2b262a;
+}
+
+#start p{
+    margin: 3rem;
+}
+
+#start a{
+    background-color: #7c8acf;
+}
+
+#start .chosen{
+    background-color: #fe8934;
+}
+
+#about-me{
+    max-width: 100%;
+    max-height: 100%;
+    width: 100vw;
+    height: 100vh;
+    background-color: #2b262a;
+}
+
+#about-me img {
+    max-height: 80vh;
+}
+
+#about-me a{
+    margin-top: 0.7rem;
+    background-color: #7c8acf;
+}
+
+.tech-icon {
+    height: 2.3rem;
+    width: 2.3rem;
+}
+
+.tech-icon-tip{
+    display: none;
+}
+
+.tech-icon-tip:hover{
+    display: block;
+}
+
+#projects{
+    max-width: 100%;
+    max-height: 100%;
+    width: 100vw;
+    height: 100vh;
+    background-color: #2b262a;
+}
+
+#contact{
+    max-width: 100%;
+    max-height: 100%;
+    width: 100vw;
+    height: 100vh;
+    background-color: #2b262a;
+}
+
+.contact-icon{
+    width: 55px;
+    height: 55px;
+    order: 2;
+}
+
+.contact-icon-bigger{
+    width: 60px;
+    height: 60px;
+    opacity: 40%;
+    order: 3;
+}
+
+.video-container{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+video{
+    opacity: 30%;
+}
