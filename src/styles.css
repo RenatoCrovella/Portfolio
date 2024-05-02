@@ -54,6 +54,13 @@
     max-width: 80vh;
 }
 
+@media (max-width: 640px) {
+    #about-me img {
+        max-height: 35vh;
+    }
+    
+}
+
 #about-me a{
     margin-top: 0.7rem;
     background-color: #7c8acf;
@@ -107,6 +114,7 @@
 
 .project-link{
     padding: 0.3rem;
+    margin-bottom: 0.4rem;
     background-color: #7c8acf;
     text-align: center;
 }
